@@ -1,0 +1,114 @@
+body{
+    background-color: #E8E5DA;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h1{
+    color: #304C89;
+    text-align: center;
+    font-family: "Fontdiner Swanky", serif;
+  font-weight: 400;
+  font-style: normal;
+text-decoration: underline;
+}
+.just_outer{
+    background-color: #304C89;
+    width: 60vmin;
+    height: 80vmin;
+    border-radius: 1rem;
+}
+
+.outer{
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0 ;
+    
+}
+.post{
+    background-color: #9EB7E5;
+    width: 50vmin;
+    height: 75vmin;
+    border-radius: 3rem;
+    margin: auto;
+    
+}
+.user{
+    font-style: italic;
+    font-size: 20px;
+    text-decoration: underline;
+    text-align: center;
+}
+img{
+    width: 40vmin;
+    height: 40vmin;
+    padding: auto;
+    margin-left:5vmin;
+    border: 3px solid #304C89;
+    border-radius: 2rem;
+    margin-bottom: 4vmin;
+}
+.content{
+    font-size: 3vmin;
+}
+.delete{
+    margin-top: 1vmin;
+  background-color: #304C89;
+  border: 2px solid #427de9;
+  border-radius: 30px;
+  box-shadow: #2b68da  4px 4px 0 0;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 16vmin;
+}
+
+.delete:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.delete:active {
+  box-shadow: #9EB7E5 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+a{
+    color: black ;
+     padding: 3vmin;
+}
+a:hover{
+    color:white;
+}
+.textarea{
+    width: 80vmin;
+    height: 48vmin;
+    background-color: #9EB7E5;
+    border: none;
+    border-radius: 3rem;
+    padding-top: 4vmin 
+}
+.imagetext{
+    width: 80vmin;
+    height: 7vmin;
+    background-color: #9EB7E5;
+    border: none;
+    border-radius: 3rem;
+    padding-top: 1vmin 
+
+}
